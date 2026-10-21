@@ -1,0 +1,57 @@
+:root {
+  --fundo: #e9efe3;
+  --papel: #f8faf5;
+  --texto: #1f2a1c;
+  --suave: #55624f;
+  --folha: #2f6b3a;
+  --terra: #6b4a32;
+  --agua: #1f6aa5;
+  --sol: #8a5a00;
+  --borda: #c9d4c0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: 'Figtree', system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+#root {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1, h2, .veredito { font-family: 'Fraunces', Georgia, serif; }
+
+ul { margin: 0; padding: 0; list-style: none; }
+
+button {
+  font: inherit;
+  font-weight: 600;
+  padding: 0.7rem 1.1rem;
+  cursor: pointer;
+  border: 2px solid var(--folha);
+  border-radius: 0.5rem;
+  background: var(--folha);
+  color: #fff;
+}
+button:disabled { opacity: 0.6; cursor: wait; }
+
+:focus-visible { outline: 3px solid var(--agua); outline-offset: 2px; }
+
+.pular {
+  position: absolute;
+  left: 0.5rem;
+  top: -4rem;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--folha);
+  color: #fff;
+  z-index: 1;
+}
+.pular:focus { top: 0.5rem; }

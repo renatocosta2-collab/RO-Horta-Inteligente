@@ -1,0 +1,12 @@
+.busca { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.busca label { flex-basis: 100%; font-weight: 600; }
+.busca input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.7rem 0.8rem;
+  font: inherit;
+  border: 2px solid var(--borda);
+  border-radius: 0.5rem;
+  background: var(--papel);
+}
+.erro-busca { flex-basis: 100%; margin: 0; color: #7a1f1f; font-weight: 600; }

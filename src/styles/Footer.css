@@ -1,0 +1,8 @@
+.rodape {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--borda);
+  font-size: 0.85rem;
+  color: var(--suave);
+}
+.rodape a { color: var(--agua); }

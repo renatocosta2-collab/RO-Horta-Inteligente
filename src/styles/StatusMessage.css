@@ -1,0 +1,8 @@
+.status {
+  margin: 1.25rem 0;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--borda);
+  border-radius: 0.5rem;
+  background: var(--papel);
+}
+.status-erro { border-color: #a33; background: #fbeaea; color: #7a1f1f; }

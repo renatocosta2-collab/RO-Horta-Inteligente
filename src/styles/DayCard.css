@@ -1,0 +1,31 @@
+.dia {
+  height: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--borda);
+  border-left-width: 8px;
+  border-radius: 0.5rem;
+  background: var(--papel);
+}
+.dia.regue { border-left-color: var(--folha); }
+.dia.espere { border-left-color: var(--agua); }
+.dia.atencao { border-left-color: var(--sol); }
+
+.dia h3 { margin: 0; font-size: 0.95rem; color: var(--suave); text-transform: capitalize; }
+.dia p { margin: 0.25rem 0 0; }
+.veredito { font-size: 1.4rem; font-weight: 600; }
+.aviso { color: var(--sol); font-weight: 600; }
+.plantio { font-size: 0.95rem; color: var(--suave); }
+
+.dados {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  column-gap: 1rem;
+  margin: 0.75rem 0 0;
+}
+.dados dt { font-size: 0.8rem; color: var(--suave); }
+.dados dd { margin: 0; font-weight: 600; }
+
+.dia.destaque { padding: 1.25rem; }
+.dia.destaque .veredito { font-size: 2.2rem; }

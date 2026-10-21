@@ -1,0 +1,8 @@
+.cidades { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+.cidade {
+  padding: 0.4rem 0.8rem;
+  background: var(--papel);
+  color: var(--texto);
+  border-color: var(--borda);
+}
+.cidade.ativa { border-color: var(--folha); background: #dcead6; }

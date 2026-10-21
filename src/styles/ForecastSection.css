@@ -1,0 +1,11 @@
+.barra {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 1.5rem 0 0.75rem;
+}
+.barra h2 { margin: 0; font-size: 1.5rem; }
+.filtro { display: flex; align-items: center; gap: 0.5rem; }
+.filtro input { width: 1.2rem; height: 1.2rem; }
