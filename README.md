@@ -252,22 +252,18 @@ A aplicação publicada foi aberta e testada no navegador. Nos cenários observa
 
 **Próxima etapa:** conferir os requisitos oficiais de entrega e enviar os links do GitHub e da Vercel no Moodle.
 
-## 📄 Créditos**
+## 📄 Créditos
 
 Projeto educacional desenvolvido para o Desafio 02 da KODIE Academy. Dados: [Open-Meteo](https://open-meteo.com/) (CC BY 4.0).
 
-## Validação final
+## ✅ Validação final
 
-- [x] Testes automatizados: 12 aprovados, 0 falhas
+- [x] Testes automatizados: 12 aprovados, 0 falhas.
+- [x] Build de produção concluído.
+- [x] Testes manuais de busca, seleção de cidades, previsão meteorológica e filtro de rega realizados.
+- [x] Responsividade verificada nos cenários testados.
+- [x] Repositório publicado no GitHub.
+- [x] Aplicação publicada na Vercel.
+- [x] Funcionamento da aplicação verificado no endereço público.
 
-- [x] Build de produção concluído
-
-- [x] Testes manuais de busca, lista compacta e responsividade realizados
-
-- [x] Publicar o repositório no GitHub e inserir o link acima
-
-- [x] Publicar a aplicação na Vercel e inserir o link acima
-
-- [x] Testar o endereço público após o deploy
-
-- [ ] Conferir os critérios de entrega e enviar o desafio no Moodle
+**Entrega acadêmica:** documentação finalizada e links preparados para submissão do Desafio 02 no Moodle da KODIE Academy.
